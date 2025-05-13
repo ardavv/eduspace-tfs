@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EduSpace</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
   <!-- Navbar -->
   <header class="navbar">
-    <div><img src="assets/logo-eduspace.png" alt="logo eduspace" class="logo-img"></div>
+    <div class="logo">
+      <img src="assets/logo-eduspace.png" alt="logo eduspace">
+    </div>
     <nav>
       <ul>
         <li><a href="#tentang">Tentang</a></li>
@@ -24,41 +29,125 @@
   <!-- Tentang EduSpace -->
   <section id="tentang" class="hero">
     <div class="hero-content">
-      <h1>Tentang EduSpace</h1>
-      <p>EduSpace adalah tempat les hybrid (offline & online) untuk siswa SMA yang ingin unggul di pelajaran sekolah, lolos UTBK,
-    dan kuliah ke luar negeri. Dibangun oleh pengajar berpengalaman, EduSpace mengedepankan pembelajaran interaktif dan
-    personal.</p>
-    <h2>Layanan Kami</h2>
-      <ul>
-        <li>
-            <img src="assets/logo-eduspace.png" alt="">
-            Les pelajaran sekolah
-        </li>
-        <li>Persiapan SNBP/SNBT</li>
-        <li>Kursus SAT & IELTS</li>
-      </ul>
+      <h1>Tentang EduScape</h1>
+      <p>EduSpace adalah tempat les hybrid (offline & online) untuk siswa SMA yang ingin unggul di pelajaran sekolah,
+        lolos UTBK, dan kuliah ke luar negeri. Dibangun oleh pengajar berpengalaman, EduSpace mengedepankan pembelajaran
+        interaktif dan personal.</p>
+
+      <div class="layanan">
+        <p>Layanan kami</p>
+        <div class="layanan-icons">
+          <div class="layanan-item">
+            <img src="assets/hat.png" alt="Les">
+            <span>Les pelajaran sekolah</span>
+          </div>
+          <div class="layanan-item">
+            <img src="assets/task.png" alt="SNBT">
+            <span>Persiapan SNBP/SNBT</span>
+          </div>
+          <div class="layanan-item">
+            <img src="assets/globe.png" alt="SAT">
+            <span>Kursus SAT & IELTS</span>
+          </div>
+        </div>
+      </div>
+
       <a href="#" class="btn-daftar">Daftar Sekarang →</a>
     </div>
-    <img src="hero-image.jpg" alt="Belajar di EduSpace" class="hero-img">
+    <div class="hero-image">
+      <img src="assets/classroom.jpg" alt="Belajar di EduSpace">
+    </div>
   </section>
 
   <!-- Achievement -->
   <section class="achievement">
-    <div class="achievement-item">15.000++ Siswa SMA Terbantu</div>
-    <div class="achievement-item">90% Lulus PTN</div>
-    <div class="achievement-item">Lolos Kampus Luar Negeri</div>
-    <div class="achievement-item">4.9/5 Google Review</div>
-    <div class="achievement-item">400+ Sesi try out</div>
+    <div class="achievement-container">
+      <div class="achievement-title">
+        <h3>Our</h3>
+        <h3 class="highlight">Achievement</h3>
+      </div>
+
+      <div class="achievement-list">
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="achievement-text">
+            <p>15,000+</p>
+            <p>Siswa SMA Terbantu</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="achievement-text">
+            <p>90%</p>
+            <p>Lulus PTN</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-globe"></i>
+          </div>
+          <div class="achievement-text">
+            <p>Lolos</p>
+            <p>Kampus Luar Negeri</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="achievement-text">
+            <p>4.9/5</p>
+            <p>Google Review</p>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <div class="achievement-text">
+            <p>400+</p>
+            <p>Sesi Try Out UTBK & SAT</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Fasilitas -->
   <section id="fasilitas" class="fasilitas">
     <h2>Fasilitas Kami</h2>
     <div class="fasilitas-list">
-      <div class="card">Ruang Kelas Privat</div>
-      <div class="card">Ruang Tunggu & Diskusi</div>
-      <div class="card">WiFi Cepat</div>
-      <div class="card">Zoom</div>
+      <div class="fasilitas-card">
+        <img src="assets/ruang-kelas.jpg" alt="Ruang Kelas">
+        <h4>Ruang Kelas Privat</h4>
+        <p>Ruang ber-AC, whiteboard digital, WiFi tercepat, dan perangkat pendukung</p>
+      </div>
+
+      <div class="fasilitas-card">
+        <img src="assets/ruang-tunggu.jpg" alt="Ruang Tunggu">
+        <h4>Ruang Tunggu dan Area Diskusi</h4>
+        <p>Area kenyamanan untuk siswa berdiskusi atau belajar</p>
+      </div>
+
+      <div class="fasilitas-card">
+        <img src="assets/wifi-cepat.jpg" alt="WiFi">
+        <h4>WiFi Cepat</h4>
+        <p>Tersedia WiFi cepat penunjang pembelajaran</p>
+      </div>
+
+      <div class="fasilitas-card">
+        <img src="assets/zoom.jpg" alt="Zoom">
+        <h4>Zoom</h4>
+        <p>Online live dengan dengan model digital dan tatap muka</p>
+      </div>
     </div>
   </section>
 
@@ -66,20 +155,97 @@
   <section id="program" class="program">
     <h2>Program Unggulan kami</h2>
     <div class="program-list">
-      <div class="card">Program Les Pembelajaran SMA</div>
-      <div class="card">Program Intensif SNBT</div>
-      <div class="card">Persiapan Universitas Luar Negeri</div>
+      <div class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Program Les Pembelajaran SMA</h3>
+        <p>Program bimbingan belajar untuk persiapan akademis sekolah menengah atas, ujian semester, dan ujian harian.
+          Dibimbing dengan metodologi yang disesuaikan dengan kurikulum dan kecepatan belajar masing-masing siswa.
+          Tersedia untuk semua kelas X sampai XII dengan fokus pada mata pelajaran inti.</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Program Intensif SNBT</h3>
+        <p>Kursus khusus untuk mempersiapkan siswa kelas 12 menghadapi UTBK dan SNBT. Meliputi latihan soal
+          (TPS-TKA-Literasi), pembahasannya, dan bimbingan strategi HOTS (High Order Thinking Skills). Tersedia simulasi
+          try out berkala, analisis hasil, serta strategi pemecahan soal-soal bagian yang sering menjadi tantangan.</p>
+      </div>
+
+      <div class="program-card">
+        <div class="program-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <h3>Program Persiapan Universitas Luar Negeri</h3>
+        <p>Kursus khusus bagi siswa yang ingin melanjutkan studi ke luar negeri. Meliputi persiapan SAT, IELTS, personal
+          statement, essay writing, dan strategi aplikasi ke universitas target. EduSpace juga memberikan konsultasi
+          pemilihan jurusan dan kampus yang sesuai dengan potensi dan minat siswa.</p>
+      </div>
     </div>
   </section>
 
   <!-- Testimoni -->
   <section id="testimonials" class="testimoni">
     <h2>Apa Tanggapan Mereka Tentang Kami</h2>
+    <p class="testimoni-subtitle">Dengarkan pengalaman para siswa dan orang tua mereka bersama EduSpace, serta bagaimana
+      bimbingan kami membantu mereka mencapai tujuan akademik mereka.</p>
+
     <div class="testimoni-list">
-      <div class="testi-card">Farhan</div>
-      <div class="testi-card">Nadya</div>
-      <div class="testi-card">Ryan</div>
-      <div class="testi-card">Bu Wina</div>
+      <div class="testi-card">
+        <div class="testi-profile">
+          <img src="assets/farhan.jpg" alt="Farhan">
+          <div class="testi-info">
+            <h4>Farhan</h4>
+            <p>Kelas 12, SMA Negeri 8 Jakarta</p>
+          </div>
+        </div>
+        <p class="testi-text">Aku ikut program UTBK di EduSpace dan berhasil dapat tempat di Teknik Sipil ITB! Materinya
+          lengkap, dan cara ngajarnya bikin ngerti. Aku juga dapat tips super berguna buat facing soal-soal HOTS yang
+          dulu masih jadi kendala aku sebelum ikut bimbel di EduSpace. Alhamdulillah, aku sekarang di Teknik Sipil ITB!
+        </p>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-profile">
+          <img src="assets/nadya.jpg" alt="Nadya">
+          <div class="testi-info">
+            <h4>Nadya</h4>
+            <p>Kelas 11, Homeschooling</p>
+          </div>
+        </div>
+        <p class="testi-text">Karena homeschooling, aku butuh les tambahan supaya fokus belajarnya. Di EduSpace, aku
+          dapat program khusus bahasa Inggris untuk IELTS karena aku mau kuliah di Singapore. Belajar disini benar-benar
+          seru dan bikin paham. Aku dapat nilai tinggi tes studi di negara tujuanku.</p>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-profile">
+          <img src="assets/ryan.jpg" alt="Ryan">
+          <div class="testi-info">
+            <h4>Ryan</h4>
+            <p>Alumni, sekarang kuliah di Belanda</p>
+          </div>
+        </div>
+        <p class="testi-text">Aku ambil kursus IELTS dan SAT di EduSpace. Mentor-mentornya sangat membantu, apalagi
+          untuk bagian esai yang bener-bener sulit buat aku. Hampir gak nyangka tapi banyak latihan dan simulasi di
+          EduSpace bikin target sampai aku lolos ke TU Delft jurusan teknik.</p>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-profile">
+          <img src="assets/bu-wina.jpg" alt="Bu Wina">
+          <div class="testi-info">
+            <h4>Bu Wina</h4>
+            <p>Orang tua murid</p>
+          </div>
+        </div>
+        <p class="testi-text">Anak saya tadinya kurang percaya diri untuk ujian UTBK. Tapi setelah ikut bimbel di
+          EduSpace, dia jadi lebih menang dan siap. Pengajarnya komunikatif dan saya juga selalu dapat update soal
+          kemajuan belajar anak. Tempat les ini recommended banget!</p>
+      </div>
     </div>
   </section>
 
@@ -87,19 +253,62 @@
   <section class="qna">
     <h2>QnA</h2>
     <div class="qna-list">
-      <div class="qna-card">Apa bedanya kelas UTBK dan sekolah biasa?</div>
-      <div class="qna-card">Apakah bisa ikut online?</div>
-      <div class="qna-card">Berapa lama program?</div>
+      <div class="qna-card">
+        <h4>Apa bedanya kelas UTBK dan sekolah biasa?</h4>
+        <p>Kelas persiapan sekolah fokus pada materi kurikulum harian dan pembelajaran teori secara lebih mendetail.
+          Sedangkan kelas UTBK lebih fokus pada strategi mengerjakan soal HOTS yang sering muncul di ujian masuk PTN.
+        </p>
+      </div>
+
+      <div class="qna-card">
+        <h4>Apakah bisa ikut les secara online?</h4>
+        <p>Bisa! EduSpace menyediakan kelas online interaktif via Zoom, dengan model digital, papan tulis virtual, dan
+          sesi tatap muka langsung bersama tutor. Banyak siswa kami dari program online juga berhasil masuk PTN.</p>
+      </div>
+
+      <div class="qna-card">
+        <h4>Berapa lama program SAT?</h4>
+        <p>Biasanya 2 hingga 3 bulan, tergantung dari level awal siswa dan skor target yang ingin dicapai. Setiap minggu
+          ada 2-3 pertemuan, dengan materi sesi review, latihan soal, dan simulasi.</p>
+      </div>
+
+      <div class="qna-card">
+        <h4>Apakah semua tutor berpengalaman?</h4>
+        <p>Ya, kami memastikan semua tutor kami merupakan lulusan universitas terbaik dengan pengalaman mengajar minimum
+          2 tahun dan telah melalui sertifikasi tutor EduSpace.</p>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer id="contacts">
     <div class="footer-content">
-      <div>Contact Us</div>
-      <div>Social Media</div>
-      <div>Alamat</div>
+      <div class="footer-logo">
+        <img src="assets/logo-eduspace.png" alt="EduSpace Logo">
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p><i class="fas fa-user"></i> M. Boby Pratama</p>
+        <p><i class="fas fa-phone"></i> 0811-8888-123</p>
+        <p><i class="fas fa-user"></i> M. Sulthan Yasin</p>
+        <p><i class="fas fa-phone"></i> 0811-8888-123</p>
+      </div>
+
+      <div class="footer-social">
+        <h4>Social Media</h4>
+        <p><i class="fab fa-instagram"></i> @eduspace.id</p>
+        <p><i class="fab fa-tiktok"></i> @eduspace_id</p>
+        <p><i class="fas fa-envelope"></i> info@eduspace.id</p>
+      </div>
+
+      <div class="footer-address">
+        <h4>Address</h4>
+        <p>Alamat Cabang Jakarta: Jl. Kemang Raya No. 12A<br>Jakarta Selatan</p>
+        <p>www.eduspace.id</p>
+      </div>
     </div>
   </footer>
 </body>
+
 </html>
